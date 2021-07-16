@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense onYearFilter={} onAddExpense={addExpenseHandler} />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses}/>
     </div>
   )
